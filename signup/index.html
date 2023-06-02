@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="/">MeShop.</a>
+      </div>
+      <div class="nav-items">
+        <a id="home-link" href="/">Home</a>
+        <a id="login-link" href="/login">Login</a>
+        <a id="signup-link" href="/signup">Signup</a>
+        <a id="cart-link" href="/cart">My Cart</a>
+      </div>
+    </nav>
+    <h1>Signup</h1>
+
+    <form action="#">
+      <div class="form">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" />
+      </div>
+      <div class="form">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" />
+      </div>
+      <div class="form">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="username" />
+      </div>
+
+      <div class="form">
+        <label for="password">Password</label
+        ><input
+          type="password"
+          id="password"
+          name="password"
+          autocomplete="new-password"
+        />
+      </div>
+
+      <div class="form">
+        <label for="cfmpassword">Confirm Password</label>
+        <input
+          type="password"
+          id="cfmpassword"
+          name="cfmpassword"
+          autocomplete="new-password"
+        />
+      </div>
+
+      <p id="message" style="margin: 20px"></p>
+      <button id="signup-btn">Signup</button>
+      <span class="message"></span>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

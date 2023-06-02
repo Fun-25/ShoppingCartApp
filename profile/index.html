@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <nav>
+      <div class="brand">
+        <a href="/">Shopping Cart</a>
+      </div>
+    </nav>
+
+    
+    <form action="#">
+      <h1 id="my-profile">My Profile</h1>
+      <div class="form">
+          <label for="firstName">First Name</label>
+<input type="text" id="firstName" name="firstName"  >
+      <hr>
+<div>
+  <div class="form">
+    <label for="lastName">Last Name</label>
+<input type="text" id="lastName" name="lastName"  >
+<hr>
+<div>
+
+  <button  class="btn" id="save-btn">Save info</button>
+
+  <h1 id="edit-password">Edit Password</h1>
+ 
+<div class="form">
+  <label for="password">New Password</label><input type="password" id="password" name="password" autocomplete="new-password">
+</div>
+<hr>
+
+<div class="form">
+  <label for="password">Old Password</label><input type="password" id="oldpassword" name="password" autocomplete="new-password">
+</div>
+<hr>
+
+<div class="form">
+  <label for="cfmpassword">Confirm New Password</label>
+<input type="password" id="cfmpassword" name="cfmpassword" autocomplete="new-password">
+</div>
+<hr>
+<p id="message" style="margin:20px"></p>
+<button  style="display:block;" class="btn" id="change-password">Change Password</button>
+<button class="btn" id="logout">Logout</button>
+  </form>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
